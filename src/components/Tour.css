@@ -1,0 +1,70 @@
+.tour{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#D3D3D3;
+    padding:5px;
+}
+
+.image-container{
+    position:relative;
+}
+
+.image-container img{
+    width:100%;
+}
+
+.close-btn{
+    position:absolute;
+    top:5%;
+    color:#ffffff;
+    right:5%;
+    opacity:0;
+    display:block;
+    cursor:pointer;
+    transition:all 0.3s linear;
+}
+
+.image-container:hover .close-btn{
+    opacity:1;
+    background-color:#800000;
+    color:#ffffff;
+    font-size:2rem;
+    border-radius:50%;
+}
+
+.tour-info{
+    display:flex;
+    flex-direction:column;
+    /* margin-left:150px; */
+    background-color: palegoldenrod;
+    width:300px;
+    display:block;
+}
+
+.city-name h2, h3{
+    display:block;
+    margin:0.5rem 10px;
+    text-transform:uppercase;
+}
+
+.city-info p{
+    display:block;
+    font-size:2rem;
+    font-weight:500;
+    margin:0px 10px;
+}
+
+.arrow-icon{
+    color:#008000 !important;
+    cursor:pointer;
+}
+
+ .city-info-knowledge p{
+     margin:2px 10px;
+}
+
+ /* .arrow-icon:hover .city-info-knowledge p{
+    opacity:1;
+} */

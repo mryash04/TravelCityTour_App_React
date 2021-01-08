@@ -1,0 +1,17 @@
+.tourList{
+    width:90%;
+    margin:0 auto;
+    padding:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+@media(max-width:460px){
+    .tourList{
+        display:flex;
+        flex-direction:column;
+        padding-left:0px;
+        padding-right:0px;
+    }
+}
